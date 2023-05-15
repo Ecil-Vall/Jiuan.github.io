@@ -1,0 +1,13 @@
+body{
+	text-align: center;
+}
+.p1{
+	vertical-align: middle;
+}
+span,h2{
+	color: red;
+}
+
+a input{
+	height: 50px;
+}
