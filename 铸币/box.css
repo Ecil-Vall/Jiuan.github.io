@@ -1,0 +1,205 @@
+			body{
+				 font-size: 20px;
+				 background-color: darkgray;
+				 overflow-x: hidden;
+			}
+			.center{
+				/*width: 1024px;*/
+				margin: 0px auto;
+			}
+			#top a{
+				text-decoration: none;
+				color: white;
+			}
+			.p1 a{
+				text-decoration: none;
+				color: white;
+			}
+			a:hover{
+				color: red;
+			}
+			#bt{
+				background-image: url(top.png);
+				background-repeat: no-repeat;
+				/*width: 1000px;*/
+				height: 100px;
+				position: relative;
+				color: deepskyblue;
+			}
+			#bt .jz{
+				position: absolute;
+				top:50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+			}
+			#bt .s{
+				width: 100px;
+				height: 30px;
+				border-radius: 10px 0px 0px 10px;
+				font-size: 14px;
+				font-weight: 800;
+				color: aliceblue;
+				line-height: 30px;
+				transition: 1s;
+				opacity: 0.8;
+				position: absolute;
+			}
+			#bt .a1{
+				z-index: 3;
+				position: absolute;
+				background-color: #0000FF;
+				right: 0px;
+				bottom: 0px;
+			}
+			#bt .a2{
+				z-index: 2;
+				position: absolute;
+				background-color: gold;
+				right: 25px;
+				bottom: 0px;
+			}
+			#bt .a3{
+				z-index: 1;
+				position: absolute;
+				background-color: green;
+				right: 50px;
+				bottom: 0px;
+			}
+			#bt .a2:hover{
+				right: 50px;
+			}
+			#bt .a3:hover{
+				right: 75px;
+			}
+			#rbottom{
+				background-color: red;
+				right: 0px;
+				bottom: 0px;
+				width: 75px;
+				height: 150px;
+				position: fixed;
+			}
+			#top{
+				background-color:blue;
+				/*width: 1000px;*/
+				height: 30px;
+				position:sticky;
+				top: 0;
+				z-index: 4;
+			}
+			#top ul{
+				list-style-type: none;
+				padding: 0px;
+				margin: 0px;
+			}
+			#top li{
+				float: left;
+				text-align: center;
+				padding-left: 10px;
+				color: white;
+			}
+			.p1{
+				width: 20%;
+				height: auto;
+				overflow: auto;
+				float: left;
+			}
+			.p2{
+				background-color: bisque;
+				width: 30%;
+				overflow: auto;
+				float: left;
+				margin-left: 1%;
+				margin-right: 1%;
+			}
+			.p3{
+				background: bisque;
+				width: 48%;
+				overflow: auto;
+				float: left;
+			}
+			.pbox{
+				background-color: aqua;
+				width: 150px;
+				height: 30px;
+				text-align: center;
+				margin-left: 25px;
+				margin-top: 25px;
+				font-weight: 800;
+			}
+			.p1 li{
+				color: deepskyblue;
+				margin-left: 20px;
+				list-style-image: url(li.png);
+				font-size: 20px;
+			}
+			#footer{
+				/*width: 1000px;*/
+				height: 30px;
+				line-height: 30px;
+				background-color: blue;
+				text-align: center;
+				color: white;
+				z-index: 888;
+				}
+			.p2 p{
+				text-indent: 2em;
+				margin-top: -20px;
+				font-size: 15px;
+				}
+				.p2 h3{
+					margin-top: 10px;
+				}
+			.p3 .w1{
+				border-bottom: 2px dotted red;
+				background-repeat: no-repeat;
+				padding-bottom: 10px;
+			}
+			.p3 .w2{
+				width: 230px;
+				height: 230px;
+				margin: 10px auto;
+				border: 5px solid yellow;
+			}
+			.flex{
+				display: flex;
+				justify-content: center;
+				flex-wrap: wrap;
+				align-items: center;
+				border-top: 2px dotted red;
+			}
+			.flex div img{
+				border: 2px solid blueviolet;
+			}
+			.flex div{
+				text-align: center;
+				margin: 10px;
+			}
+			.more{
+				display: flex;
+				justify-content: center;
+				flex-wrap: wrap;
+				align-items: center;
+			}
+			.more div{
+				text-align: center;
+				margin: -20px 10px 0px 10px;
+			}
+			.text h3{
+				text-indent: 1.4em;
+			}
+			.text p{
+				text-indent: 2em;
+				font-size: 15px;
+			}
+			.p2 ul li{
+				padding-bottom: 5px;
+				margin-bottom: 5px;
+				color: blue;
+				width: 250px;
+				border-bottom: 2px solid deepskyblue;
+			}
+			.p3 img{
+				height: 64px;
+				width: 64px;
+			}
